@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #C5E4E7;
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+}
+#logo{
+    margin:50px auto 0 ;
+    display: block;
+}
+.container{
+    background: #FFFFFF;
+    margin-top:40.86px;
+    box-shadow: 0px 32px 43px rgba(79, 166, 175, 0.200735);
+    border-radius: 25px 25px 0px 0px;
+    padding-bottom: 32px;
+}
+#num{
+    width: 82.93%;
+    background: #F3F9FA;
+    border-radius: 5px;
+    height: 48px;
+    border: none;
+    margin: 16px auto 0;
+    display: block;
+}
+#bill{
+    width: 82.93%;
+    background: #F3F9FA;
+    border-radius: 5px;
+    height: 48px;
+    border: none;
+    margin: 16px auto 32px;
+    display: block;
+}
+h6{
+    font-size: 16px;
+    line-height: 24px;
+    color: #5E7A7D;
+}
+.leftside{
+    margin: 0 32px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 16px;
+    margin-bottom: 32px;
+}
+.tip{
+    background: #00474B;
+    border-radius: 5px;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 16px;
+    height: 48px;
+    cursor: pointer;
+}
+.tip:hover{
+    background: #9FE8DF;
+    color: #00474B;
+}
+.costum:hover{
+    cursor: text;
+}
+.costum{
+    background: #F3F9FA;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: right;
+    color: #547878;
+    height: 48px;
+}
+.rightside{
+    background: #00474B;
+    border-radius: 15px;
+    margin: 24px 24px 0;
+    padding-bottom: 32px;
+    
+}
+.amount h4{
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-top: 32px;
+}
+span{
+    font-size: 13px;
+    line-height: 19px;
+    color: #7F9D9F;
+}
+.amount, .total{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin:  32px 24px 0;
+}
+.number{
+    font-size: 32px;
+    line-height: 47px;
+    text-align: right;
+    letter-spacing: -0.666667px;
+    color: #26C2AE;
+}
+h3{
+    font-size: 32px;
+    line-height: 47px;
+    text-align: right;
+    letter-spacing: -0.666667px;
+    color: #26C2AE;
+}
+.total h4{
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+.btn{
+    background: #26C2AE;
+    border-radius: 5px;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #00474B;
+    border: none;
+    cursor: pointer;
+    width: 74.9%;
+    height: 48px;
+    margin: 32px auto 0;  
+    display: block;
+}
+@media (min-width:1440px) {
+    #logo{
+        margin-top: 163px;
+    }
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 87px auto 239px;
+        width: 63.88%;
+        border-radius: 25px;
+    }
+    .rightside{
+        width: 50%;
+        height: 417px;
+    }
+    .leftside{
+        width: 50%;
+    }
+    .grid{
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns:1fr 1fr 1fr;
+    }
+    #num, #bill{
+        width: 100%;
+    }
+    .btn{
+        margin-top: 122px;
+    }
+}
