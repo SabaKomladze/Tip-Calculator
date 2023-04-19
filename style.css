@@ -39,13 +39,19 @@ body{
     text-align: right;
     color: #00474B;
 }
-::placeholder{
+#bill, #num::-webkit-input-placeholder{
     font-size: 24px;
     line-height: 36px;
     text-align: right;
     color: #00474B;
     mix-blend-mode: normal;
     opacity: 0.35;
+}
+.costum::-webkit-input-placeholder{
+    font-size: 24px;
+    line-height: 36px;
+    text-align: right;
+    color: #547878;
 }
 #bill{
     width: 82.93%;
@@ -95,17 +101,45 @@ h6{
     background: #9FE8DF;
     color: #00474B;
 }
+.btn-active{
+    background: #26C2AE;
+    border-radius: 5px;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #00474B;
+}
 
 .costum:hover{
     cursor: text;
+}
+.error{
+    font-size: 16px;
+    line-height: 24px;
+    text-align: right;
+    color: #E17457;
+    position: absolute;
+    right: 0;
+    top: 0px;
+    display: none;
+}
+.bill{
+    position: relative;
+}
+.people{
+    position: relative;
 }
 .costum{
     background: #F3F9FA;
     font-size: 24px;
     line-height: 36px;
-    text-align: right;
     color: #547878;
     height: 48px;
+    width: 100%;
+    text-align: right;
+    border: none;
+    border-radius: 5px;
+    margin-top: 16px;
 }
 .rightside{
     background: #00474B;
